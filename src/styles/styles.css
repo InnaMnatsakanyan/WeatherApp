@@ -1,0 +1,39 @@
+.forecastWeatherGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 10px; /* space between columns, change as needed */
+    grid-row-gap: 10px;
+    padding: 40px;
+}
+
+.forecastDetail {
+    background-color: #aac5a0;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    background-color: #aac5a0;
+    height: 55px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>input {
+    height: 25px;
+    border-radius: 20px;
+    border-width: 0px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+.header>button {
+    height: 25px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: white;
+}
